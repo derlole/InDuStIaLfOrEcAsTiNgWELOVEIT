@@ -1,66 +1,72 @@
 # 📘 Aufbau des Jupyter Notebooks – Vorhersage klassischer vs. moderner Modelle
 
-## 1. Einleitung
-- Kurze Beschreibung des Problems (z. B. Energieverbrauch / Durchsatz / Ausfallraten)
-- Was ist Forecasting?
-- Motivation: Warum kurz- bis mittelfristige Vorhersagen wichtig sind
-- Ziel des Notebooks: Vergleich klassischer Modelle (ARIMA) mit modernen Modellen (Prophet / LSTM)
+## 1. Einleitung☑️
+- Kurze Beschreibung des Problems (z. B. Energieverbrauch / Durchsatz / Ausfallraten)☑️
+- Was ist Forecasting?☑️
+- Motivation: Warum kurz- bis mittelfristige Vorhersagen wichtig sind☑️
+- Ziel des Notebooks: Vergleich klassischer Modelle (ARIMA) mit modernen Modellen (Prophet / LSTM)☑️
 
 ---
 
-## 2. Datenbeschreibung
-- Woher kommt der Datensatz?
-- Welche Variablen enthält er?
-- Zeitraum, Auflösung (minütlich / stündlich / täglich)
-- Beispielhafte Tabelle/Head anzeigen
+## 2. Datenbeschreibung☑️
+- Woher kommt der Datensatz?☑️
+- Welche Variablen enthält er?☑️
+- Zeitraum, Auflösung (minütlich / stündlich / täglich)☑️
+- Beispielhafte Tabelle/Head anzeigen☑️
 
 ---
 
-## 3. Explorative Datenanalyse (EDA)
-- Zeitverlauf plotten
-- Trend, Saisonalität, Ausreißer untersuchen
-- Autokorrelationen (ACF/PACF) anzeigen
-- Statistische Kennzahlen: Mittel, Varianz, Min/Max
+## 3. Explorative Datenanalyse (EDA)☑️
+- Zeitverlauf plotten☑️
+- Trend, Saisonalität, Ausreißer untersuchen☑️
+- Autokorrelationen (ACF/PACF) anzeigen☑️
+- Statistische Kennzahlen: Mittel, Varianz, Min/Max☑️
 
 ---
 
-## 4. Datenvorverarbeitung
-- Umgang mit fehlenden Werten
-- Glättung / Resampling (wenn nötig)
-- Erstellung von Train/Test-Split
-- Optional: Normalisierung für LSTM
+## 4. Datenvorverarbeitung☑️
+- Umgang mit fehlenden Werten☑️
+- Glättung / Resampling (wenn nötig)☑️
+- Erstellung von Train/Test-Split☑️
+- Optional: Normalisierung für LSTM☑️
 
 ---
 
-## 5. Klassisches Modell: ARIMA
-### 5.1 Theoretische Kurzbeschreibung
-- Stationarität
-- p, d, q Bedeutung
-- Stärken / Schwächen
+## 5. Klassisches Modell: ARIMA💥
+### 5.1 Theoretische Kurzbeschreibung☑️
+- Stationarität☑️
+- p, d, q Bedeutung☑️
+- Stärken / Schwächen☑️
 
-### 5.2 Implementierung
-- ACF / PACF basierte Parameterwahl *oder*
-- auto_arima, aber mit Erläuterung der gefundenen Parameter
+### 5.2 Implementierung☑️
+- ACF / PACF basierte Parameterwahl *oder*☑️
+- auto_arima, aber mit Erläuterung der gefundenen Parameter☑️
 
-### 5.3 Training & Evaluation
-- RMSE, MAE, MAPE
-- Residuenanalyse
-- Plot: echte Daten vs. ARIMA-Vorhersage
+### 5.3 Training & Evaluation☑️💥
+- RMSE, MAE, MAPE☑️
+- Residuenanalyse☑️💥
+- Plot: echte Daten vs. ARIMA-Vorhersage☑️💥
 
 ---
 
-## 6. Modernes Modell: Prophet
-### 6.1 Kurzbeschreibung
-- Automatische Trend- & Saisonalitätserkennung
-- additive Komponenten
+## 5.under☑️
+Hier könnte man anstatt ARIMA auch SARIMA als Saisonales ARIMA modell verwenden, aber ig kann man auch lassen, wenn man das nicht braucht.❌
+Wäre im endeffekt die schöne lösung❌
 
-### 6.2 Implementierung
-- Prophet Modell fitten
-- Debug/Parameter anzeigen lassen
+---
 
-### 6.3 Evaluation
-- Metriken: RMSE, MAE, MAPE
-- Plot der Vorhersage und Komponenten
+## 6. Modernes Modell: Prophet☑️💥
+### 6.1 Kurzbeschreibung☑️
+- Automatische Trend- & Saisonalitätserkennung☑️
+- additive Komponenten☑️
+
+### 6.2 Implementierung☑️
+- Prophet Modell fitten☑️
+- Debug/Parameter anzeigen lassen☑️
+
+### 6.3 Evaluation☑️
+- Metriken: RMSE, MAE, MAPE☑️
+- Plot der Vorhersage und Komponenten☑️💥
 
 ---
 
