@@ -42,16 +42,10 @@
 - ACF / PACF basierte Parameterwahl *oder*☑️
 - auto_arima, aber mit Erläuterung der gefundenen Parameter☑️
 
-### 5.3 Training & Evaluation☑️💥
+### 5.3 Training & Evaluation☑️
 - RMSE, MAE, MAPE☑️
-- Residuenanalyse☑️💥
-- Plot: echte Daten vs. ARIMA-Vorhersage☑️💥
-
----
-
-## 5.under☑️
-Hier könnte man anstatt ARIMA auch SARIMA als Saisonales ARIMA modell verwenden, aber ig kann man auch lassen, wenn man das nicht braucht.❌
-Wäre im endeffekt die schöne lösung❌
+- Residuenanalyse☑️
+- Plot: echte Daten vs. ARIMA-Vorhersage☑️
 
 ---
 
