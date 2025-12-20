@@ -32,7 +32,7 @@
 
 ---
 
-## 5. Klassisches Modell: ARIMA💥
+## 5. Klassisches Modell: ARIMA
 ### 5.1 Theoretische Kurzbeschreibung☑️
 - Stationarität☑️
 - p, d, q Bedeutung☑️
@@ -49,7 +49,7 @@
 
 ---
 
-## 6. Modernes Modell: Prophet☑️💥
+## 6. Modernes Modell: Prophet☑️
 ### 6.1 Kurzbeschreibung☑️
 - Automatische Trend- & Saisonalitätserkennung☑️
 - additive Komponenten☑️
@@ -60,20 +60,20 @@
 
 ### 6.3 Evaluation☑️
 - Metriken: RMSE, MAE, MAPE☑️
-- Plot der Vorhersage und Komponenten☑️💥
+- Plot der Vorhersage und Komponenten☑️
 
 ---
 
 ## 7. Modernes Modell: LSTM (einfach)
-### 7.1 Kurzbeschreibung
-- Grundidee von RNNs
-- Windowing / Sequencing
-- Stärken / Schwächen
+### 7.1 Kurzbeschreibung☑️
+- Grundidee von RNNs☑️
+- Windowing / Sequencing☑️
+- Stärken / Schwächen☑️
 
-### 7.2 Implementierung
-- Daten normalisieren
-- Fenster erzeugen
-- Einfaches LSTM-Netz trainieren
+### 7.2 Implementierung☑️
+- Daten normalisieren☑️
+- Fenster erzeugen☑️
+- Einfaches LSTM-Netz trainieren☑️
 
 ### 7.3 Evaluation
 - Fehler-Metriken
