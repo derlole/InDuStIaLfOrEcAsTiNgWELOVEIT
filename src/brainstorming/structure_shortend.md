@@ -75,11 +75,6 @@
 - Fenster erzeugen☑️
 - Einfaches LSTM-Netz trainieren☑️
 
-### 7.3 Evaluation
-- Fehler-Metriken
-- Vorhersage-Plot
-- Diskussion Training Time / Overfitting
-
 ---
 
 ## 8. Vergleich der Modelle
@@ -102,15 +97,3 @@
 - Welches Modell am sinnvollsten für diesen Datensatz?
 
 ---
-
-## 9. Fazit
-- Welche Erkenntnisse wurden gewonnen?
-- Grenzen der Modelle
-- Ausblick (z. B. bessere LSTMs, Hyperparameter-Tuning, Exogene Variablen)
-
----
-
-## 10. Anhang / Zusatzanalysen
-- Code für AC/PCF
-- Residuenplots
-- Alternate Modelle wie SARIMA
