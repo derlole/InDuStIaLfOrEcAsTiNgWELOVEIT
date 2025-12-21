@@ -1,1 +1,8 @@
-numpy pandas matplotlib tensorflow statsmodels scikit-learn pmdarima prophet
+numpy
+pandas
+matplotlib
+tensorflow
+statsmodels
+scikit-learn
+pmdarima
+prophet
