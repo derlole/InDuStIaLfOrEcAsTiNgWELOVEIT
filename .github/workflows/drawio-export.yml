@@ -31,7 +31,13 @@ jobs:
           output: docs
           format: svg
           remove-page-suffix: true
-          action-mode: all
+
+      - uses: rlespinasse/drawio-export-action@v2
+        with:
+          path: 'diagrams'
+          output: docs
+          format: svg
+          remove-page-suffix: true
           
       - name: Show exported files
         run: ls -R 
