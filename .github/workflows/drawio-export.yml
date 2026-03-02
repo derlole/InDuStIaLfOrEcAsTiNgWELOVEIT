@@ -31,6 +31,7 @@ jobs:
           output: docs
           format: svg
           remove-page-suffix: true
+          action-mode: all
 
       - uses: rlespinasse/drawio-export-action@v2
         with:
@@ -38,6 +39,7 @@ jobs:
           output: docs
           format: svg
           remove-page-suffix: true
+          action-mode: all
           
       - name: Show exported files
         run: ls -R 
