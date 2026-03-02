@@ -28,6 +28,9 @@ jobs:
           output: docs
           format: svg
           remove-page-suffix: true
+          
+      - name: Show exported files
+        run: ls -R docs || true
 
 
       - name: Commit and push exported files
