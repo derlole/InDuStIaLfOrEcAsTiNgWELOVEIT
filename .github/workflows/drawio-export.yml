@@ -31,10 +31,10 @@ jobs:
           output: docs
           format: svg
           remove-page-suffix: true
-          action-mode: "all"
+          action-mode: all
           
       - name: Show exported files
-        run: ls -R docs || true
+        run: ls -R 
 
 
       - name: Commit and push exported files
