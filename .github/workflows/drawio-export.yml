@@ -33,11 +33,12 @@ jobs:
           remove-page-suffix: true
           action-mode: all
 
-      - uses: rlespinasse/drawio-export-action@v2
+      - name: Export draw.io to PNG
+        uses: rlespinasse/drawio-export-action@v2
         with:
           path: 'diagrams'
           output: docs
-          format: svg
+          format: png
           remove-page-suffix: true
           action-mode: all
           
