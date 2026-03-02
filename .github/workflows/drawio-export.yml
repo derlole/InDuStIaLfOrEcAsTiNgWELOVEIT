@@ -41,7 +41,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add docs/*.svg docs/*.png 2>/dev/null || true
+          git add diagrams/docs/ docs/*.png 2>/dev/null || true
           if ! git diff --cached --quiet; then
             git commit -m "chore: export draw.io diagrams"
             git push
