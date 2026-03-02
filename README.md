@@ -36,3 +36,6 @@ venv\Scripts\activate
 pip install -r dependencies.txt
 ```
 ![Diagramm](diagrams/docs/test.png)
+
+## Final Test
+![Das ist ein test diagramm, falls es nicht existiert](diagrams/docs/newdiagram.png)
